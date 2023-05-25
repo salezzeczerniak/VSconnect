@@ -267,20 +267,59 @@ background-attachment: fixed; */
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: var(--font2);
 }
 
-.conjunto_footer img{
-    border-radius: 2px solid;
+.quadrado_footer {
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid #FFFFFF;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(7.5px);
+    border-radius: 60px;
     display: flex;
+    position: relative;
+    width: 50%;
+    height: 250px;
+    top: -30px;
+    padding: 40px 50px;
 }
 
-.footer_saibamais{
-    background-color: var(--branco);
-    color: var(--azulc);
-    padding: 10px 30px;
+.quadrado_footer img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: -130px;
 }
 
-.contatos img{
+.footer_bt{
+    text-decoration: none;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #0c7faf;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer_dev_pc{
+    display: flex;
+    flex-direction: column;
+}
+
+.navegação{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.redes img  {
     width: 30px;
-    height: 30px;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
